@@ -1,1 +1,2 @@
-# autoDarkMode
+# autoDarkMode - google extension
+
