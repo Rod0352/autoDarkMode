@@ -4,7 +4,7 @@
     "name": "ADM",
     "description": "This is a Chrome extension to enable dark mode on all websites automatically.",
     "action": {
-        "default_popup": "/index.html",
+        "default_popup": "./index.html",
         "default_title": "Automatic Dark Mode"
     },
     "permissions": [

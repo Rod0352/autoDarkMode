@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* id for main div */
+#main {
+    max-width: 800px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #6b6b6b;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+/* id for title */
+#title {
+ width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fcfcfc;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/*id for description text */
+#description {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fcfcfc;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#dark-mode-toggle {
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: #8d89bb;
+    /* padding: 10px 0; */
+    border-bottom: 1px solid #6b6d9e;
+    border-radius: 6px;
+}
+
+/* on click animate button */
+#dark-mode-toggle:hover {
+    background-color: #8d89bb;
+    color: #fcfcfc;
+    cursor: pointer;
+}
+
+#dark-mode-toggle:active {
+    background-color: #8d89bb;
+    color: #fcfcfc;
+    border : 1px solid #fcfcfc;
+}
+
+/* id for dark mode */
+.dark-mode {
+    background-color: #333;
+    color: #fcfcfc;
+}
+
+/* id for light mode */
+.light-mode {
+    background-color: #fcfcfc;
+    color: #333;
+}
